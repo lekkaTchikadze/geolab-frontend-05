@@ -1,4 +1,5 @@
 /* font-family: 'Lato', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
 nav{
     display: flex;
     justify-content: space-between;
@@ -24,21 +25,19 @@ nav{
 }
 /* section */
 .wrapper{
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
     width: 1200px;
     margin:0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
-
 .info-title{
     width: 636px;
     font-family: 'Lato', sans-serif;
     font-size: 78px;
     font-weight: 700;
     color: #534D4D;
-    margin: 160px 100px 90px 0;
-    
+    margin: 160px 100px 50px 0;
 }
 .info-p{
     width: 602px;
@@ -62,7 +61,7 @@ nav{
 }
 .home-img{
     width: 500px;
-    margin-top: 160px;
+    margin-top: 130px;
     margin-bottom: 180px;
 
 }
@@ -77,37 +76,262 @@ nav{
     font-weight: 700;
     text-transform: uppercase;
     cursor: pointer;
+    margin-bottom: 25px;
 
 }
 .servise-title-2{
     color: #5A5454;
     font-family: 'Lato', sans-serif;
     font-size: 40px;
+    margin-bottom: 25px;
 
 }
 .servise-p{
-    font-family: 'Lato', sans-serif;
+    font-family: 'roboto', sans-serif;
     color: #747474;
     font-size: 18px;
     margin-bottom: 65px;
     
 }
+/* section-2 */
 .container{
-    width: 1169px;
+    width: 1170px;
     margin: 0 auto;
+}
+.top-line{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    margin-bottom: 60px;
 }
-.orange-card{
-    height: 450px;
-    width: 370;
+.left-card-1{
+    width: 350px;
+    height: 430px;
     background-color: #FBBA77;
-    align-items: center;
-
 }
-.fa-laptop-code{
+.left-card-1-icon{
     width: 100px;
-    height: 100px;
-    color: white;
+    margin: 80px 120px 70px 120px;
 }
+.left-card-1-title{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.left-card-1-text{
+    text-align: center;
+    width: 325px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+.left-card-1-button{
+    width: 130px;
+    height: 45px;
+    margin: 30px 115px ;
+    color: #ffffff;
+    background-color:#FBBA77 ;
+    text-align: center;
+    border-radius: 41px;
+    cursor: pointer;
+    border-color: #ffffff;
+}
+.left-card-1-button:hover{
+    background-color: blanchedalmond;
+    color:black;
+}
+.middle-card-1{
+    width: 350px;
+    height: 430px;
+    background-color: #41EAE3;
+}
+.middle-card-1-icon{
+    width: 100px;
+    margin: 80px 120px 70px 120px;
+}
+.middle-card-1-title{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.middle-card-1-text{
+    text-align: center;
+    width: 325px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+.middle-card-1-button{
+    width: 130px;
+    height: 45px;
+    margin: 30px 115px ;
+    color: #ffffff;
+    background-color:#41EAE3 ;
+    text-align: center;
+    border-radius: 41px;
+    cursor: pointer;
+    border-color: #ffffff;
+}
+.middle-card-1-button:hover{
+    background-color: blanchedalmond;
+    color:black;
+}
+.right-card-1{
+    width: 350px;
+    height: 430px;
+    background-color: #69529F;
+}
+.right-card-1-icon{
+    width: 100px;
+    margin: 80px 120px 70px 120px;
+}
+.right-card-1-title{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.right-card-1-text{
+    text-align: center;
+    width: 325px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+.right-card-1-button{
+    width: 130px;
+    height: 45px;
+    margin: 30px 115px ;
+    color: #ffffff;
+    background-color:#69529F ;
+    text-align: center;
+    border-radius: 41px;
+    cursor: pointer;
+    border-color: #ffffff;
+}
+.right-card-1-button:hover{
+    background-color: blanchedalmond;
+    color:black;
+}
+.bottom-line{
+    display: flex;
+    justify-content: space-between;
+}
+.left-card-2{
+        width: 350px;
+        height: 430px;
+        background-color: #4386D2;
+    }
+    .left-card-2-icon{
+        width: 100px;
+        margin: 80px 120px 70px 120px;
+    }
+    .left-card-2-title{
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-size: 22px;
+        color: #ffffff;
+        margin-bottom: 20px;
+    }
+    .left-card-2-text{
+        text-align: center;
+        width: 325px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        color: #ffffff;
+    }
+    .left-card-2-button{
+        width: 130px;
+        height: 45px;
+        margin: 30px 115px ;
+        color: #ffffff;
+        background-color:#4386D2;
+        text-align: center;
+        border-radius: 41px;
+        cursor: pointer;
+        border-color: #ffffff;
+    }
+    .left-card-2-button:hover{
+        background-color: blanchedalmond;
+        color:black;
+    }  
+    .middle-card-2{
+        width: 350px;
+        height: 430px;
+        background-color: #A5A2F6;
+    }
+    .middle-card-2-icon{
+        width: 100px;
+        margin: 80px 120px 70px 120px;
+    }
+    .middle-card-2-title{
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-size: 22px;
+        color: #ffffff;
+        margin-bottom: 20px;
+    }
+    .middle-card-2-text{
+        text-align: center;
+        width: 325px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        color: #ffffff;
+    }
+    .middle-card-2-button{
+        width: 130px;
+        height: 45px;
+        margin: 30px 115px ;
+        color: #ffffff;
+        background-color:#A5A2F6 ;
+        text-align: center;
+        border-radius: 41px;
+        cursor: pointer;
+        border-color: #ffffff;
+    }
+    .middle-card-2-button:hover{
+        background-color: blanchedalmond;
+        color:black;
+    }
+    .right-card-2{
+        width: 350px;
+        height: 430px;
+        background-color: #FF8088;
+    }
+    .right-card-2-icon{
+        width: 100px;
+        margin: 80px 120px 70px 120px;
+    }
+    .right-card-2-title{
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-size: 22px;
+        color: #ffffff;
+        margin-bottom: 20px;
+    }
+    .right-card-2-text{
+        text-align: center;
+        width: 325px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        color: #ffffff;
+    }
+    .right-card-2-button{
+        width: 130px;
+        height: 45px;
+        margin: 30px 115px ;
+        color: #ffffff;
+        background-color:#FF8088;
+        text-align: center;
+        border-radius: 41px;
+        cursor: pointer;
+        border-color: #ffffff;
+    }
+    .right-card-1-button:hover{
+        background-color: blanchedalmond;
+        color:black;
+    }
